@@ -1,18 +1,27 @@
 # Oil & Energy ETF Tracker
 
-Geopolitical oil market analysis dashboard with scenario modeling.  
-Built with React + Vite + Tailwind CSS.
+Real-time oil and energy ETF monitoring dashboard with geopolitical scenario analysis, built for the 2026 Strait of Hormuz crisis.
 
 ## Features
 
-- Real-time ETF price tracking (IOGP, XLE, VDE, OIH, USO, BNO)
-- Brent & WTI crude oil benchmarks
-- Geopolitical context panel with event impact analysis
-- Houthi double-chokepoint risk assessment (Bab el-Mandeb)
-- IOGP elasticity analysis (beta, operating leverage, hedging)
-- Bull/Base/Bear scenario models with supply/demand waterfalls
-- Elasticity-grounded price targets (Hamilton 2009, Fed research)
-- sendPrompt() refresh button for live data updates via Claude
+- **ETF Watchlist**: IOGP (primary), XLE, VDE, OIH, USO, BNO with live prices
+- **Oil Benchmarks**: Brent Crude & WTI with daily change
+- **IOGP Elasticity Analysis**: Price sensitivity, operating leverage, beta analysis
+- **Geopolitical Context**: Iran-Hormuz crisis, Houthi developments, diplomatic progress
+- **Houthi Double Chokepoint Assessment**: Probability-weighted analysis of Bab el-Mandeb closure risk
+- **3-Scenario Model** (Bull/Base/Bear):
+  - Full supply/demand waterfall (gross disruption → mitigations → net deficit)
+  - Elasticity-grounded price targets (not arbitrary caps)
+  - Per-ETF impact assessment with reasoning
+  - Key triggers to watch
+
+## Price Target Methodology
+
+All price targets are grounded in:
+- **Historical precedent**: 1973 embargo = 7% shortage → 300% price increase
+- **Short-run demand elasticity**: ~-0.05 (Hamilton 2009, Fed research)
+- **Near-zero short-run supply elasticity** (Caldara et al. 2019)
+- **Panic/hoarding amplification** with demand destruction timelines
 
 ## Setup
 
@@ -21,20 +30,12 @@ npm install
 npm run dev
 ```
 
-## Deploy
+## Tech Stack
 
-```bash
-npm run build
-```
+- React 18 + Vite
+- Tailwind CSS v4
+- Lucide React icons
 
-Outputs to `dist/` — deploy to any static host (Vercel, Netlify, GitHub Pages).
+## Disclaimer
 
-## Architecture
-
-Market data and geopolitical context are pre-loaded as constants (fetched by Claude via web search).  
-Scenario models use elasticity-grounded reasoning:
-- Short-run demand elasticity: ~-0.05 (Hamilton 2009)
-- Historical precedent: 1973 embargo (7% shortage → 300% price increase)
-- Supply/demand waterfall: gross disruption → itemized mitigations → net deficit
-
-The "Refresh" button calls `sendPrompt()` to request Claude fetch fresh data and update the artifact.
+For informational and educational purposes only. Not financial advice. Consult a qualified financial advisor before making investment decisions.
