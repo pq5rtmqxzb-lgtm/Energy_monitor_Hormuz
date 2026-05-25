@@ -1,17 +1,13 @@
 {
-  "as_of": "2026-05-22T22:48:12.476Z",
-  "snapshot_label": "2026-05-22 (auto-refresh)",
+  "as_of": "2026-05-25T22:50:21.221Z",
+  "snapshot_label": "2026-05-25 (auto-refresh)",
   "source": "Yahoo Finance chart endpoint",
   "brent": {
-    "price": 103.94,
-    "change_pct": 1.33,
+    "price": 93.92,
+    "change_pct": -9.29,
     "currency": "USD",
     "note": "Front-month settle. Dated Brent quoted higher (~$110 via Fortune May 13) — three-layer discount stack in effect.",
     "history": [
-      {
-        "date": "2026-03-20",
-        "close": 112.19
-      },
       {
         "date": "2026-03-23",
         "close": 99.94
@@ -186,22 +182,22 @@
       },
       {
         "date": "2026-05-22",
-        "close": 103.94
+        "close": 103.54
+      },
+      {
+        "date": "2026-05-25",
+        "close": 93.92
       }
     ],
-    "as_of": "2026-05-22",
-    "regular_market_time": "2026-05-22T20:59:59.000Z"
+    "as_of": "2026-05-25",
+    "regular_market_time": "2026-05-25T22:39:03.000Z"
   },
   "wti": {
-    "price": 97,
-    "change_pct": 0.67,
+    "price": 90.45,
+    "change_pct": -6.37,
     "currency": "USD",
     "note": "Front-month settle. Back below $102 from $102.18 May 12 close.",
     "history": [
-      {
-        "date": "2026-03-20",
-        "close": 98.32
-      },
       {
         "date": "2026-03-23",
         "close": 88.13
@@ -376,23 +372,23 @@
       },
       {
         "date": "2026-05-22",
-        "close": 97
+        "close": 96.6
+      },
+      {
+        "date": "2026-05-25",
+        "close": 90.45
       }
     ],
-    "as_of": "2026-05-22",
-    "regular_market_time": "2026-05-22T20:59:59.000Z"
+    "as_of": "2026-05-25",
+    "regular_market_time": "2026-05-25T22:40:16.000Z"
   },
   "etfs": {
     "IOGP": {
-      "price": 30.71,
-      "change_pct": 0.13,
+      "price": 30.25,
+      "change_pct": -1.5,
       "currency": "EUR",
-      "as_of": "2026-05-21",
+      "as_of": "2026-05-22",
       "history": [
-        {
-          "date": "2026-03-17",
-          "close": 30.55
-        },
         {
           "date": "2026-03-18",
           "close": 30.91
@@ -568,9 +564,13 @@
         {
           "date": "2026-05-21",
           "close": 30.71
+        },
+        {
+          "date": "2026-05-22",
+          "close": 30.25
         }
       ],
-      "regular_market_time": "2026-05-22T15:29:59.000Z"
+      "regular_market_time": "2026-05-25T15:28:57.000Z"
     },
     "XLE": {
       "price": 59.49,
