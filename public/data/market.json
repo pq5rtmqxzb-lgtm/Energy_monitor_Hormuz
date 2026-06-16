@@ -1,17 +1,13 @@
 {
-  "as_of": "2026-06-15T23:28:04.479Z",
-  "snapshot_label": "2026-06-15 (auto-refresh)",
+  "as_of": "2026-06-16T23:16:20.099Z",
+  "snapshot_label": "2026-06-16 (auto-refresh)",
   "source": "Yahoo Finance chart endpoint",
   "brent": {
-    "price": 83.68,
-    "change_pct": -4.18,
+    "price": 79.51,
+    "change_pct": -4.4,
     "currency": "USD",
     "note": "Front-month settle. Dated Brent quoted higher (~$110 via Fortune May 13) — three-layer discount stack in effect.",
     "history": [
-      {
-        "date": "2026-04-13",
-        "close": 99.36
-      },
       {
         "date": "2026-04-14",
         "close": 94.79
@@ -186,22 +182,22 @@
       },
       {
         "date": "2026-06-15",
-        "close": 83.68
+        "close": 83.17
+      },
+      {
+        "date": "2026-06-16",
+        "close": 79.51
       }
     ],
-    "as_of": "2026-06-15",
-    "regular_market_time": "2026-06-15T23:14:20.000Z"
+    "as_of": "2026-06-16",
+    "regular_market_time": "2026-06-16T23:06:05.000Z"
   },
   "wti": {
-    "price": 81.43,
-    "change_pct": -4.06,
+    "price": 75.87,
+    "change_pct": -6.04,
     "currency": "USD",
     "note": "Front-month settle. Back below $102 from $102.18 May 12 close.",
     "history": [
-      {
-        "date": "2026-04-13",
-        "close": 99.08
-      },
       {
         "date": "2026-04-14",
         "close": 91.28
@@ -376,23 +372,23 @@
       },
       {
         "date": "2026-06-15",
-        "close": 81.43
+        "close": 80.75
+      },
+      {
+        "date": "2026-06-16",
+        "close": 75.87
       }
     ],
-    "as_of": "2026-06-15",
-    "regular_market_time": "2026-06-15T23:16:13.000Z"
+    "as_of": "2026-06-16",
+    "regular_market_time": "2026-06-16T23:06:08.000Z"
   },
   "etfs": {
     "IOGP": {
-      "price": 29.02,
-      "change_pct": -1.59,
+      "price": 27.84,
+      "change_pct": -4.07,
       "currency": "EUR",
-      "as_of": "2026-06-12",
+      "as_of": "2026-06-15",
       "history": [
-        {
-          "date": "2026-04-10",
-          "close": 29.27
-        },
         {
           "date": "2026-04-13",
           "close": 29.77
@@ -568,20 +564,20 @@
         {
           "date": "2026-06-12",
           "close": 29.02
+        },
+        {
+          "date": "2026-06-15",
+          "close": 27.84
         }
       ],
-      "regular_market_time": "2026-06-15T15:35:04.000Z"
+      "regular_market_time": "2026-06-16T15:29:03.000Z"
     },
     "XLE": {
-      "price": 55.55,
-      "change_pct": -3.48,
+      "price": 55.36,
+      "change_pct": -0.34,
       "currency": "USD",
-      "as_of": "2026-06-15",
+      "as_of": "2026-06-16",
       "history": [
-        {
-          "date": "2026-04-13",
-          "close": 57.11
-        },
         {
           "date": "2026-04-14",
           "close": 55.95
@@ -757,20 +753,20 @@
         {
           "date": "2026-06-15",
           "close": 55.55
+        },
+        {
+          "date": "2026-06-16",
+          "close": 55.36
         }
       ],
-      "regular_market_time": "2026-06-15T20:00:00.000Z"
+      "regular_market_time": "2026-06-16T20:00:00.000Z"
     },
     "VDE": {
-      "price": 156.76,
-      "change_pct": -3.44,
+      "price": 155.95,
+      "change_pct": -0.52,
       "currency": "USD",
-      "as_of": "2026-06-15",
+      "as_of": "2026-06-16",
       "history": [
-        {
-          "date": "2026-04-13",
-          "close": 162.31
-        },
         {
           "date": "2026-04-14",
           "close": 158.69
@@ -946,20 +942,20 @@
         {
           "date": "2026-06-15",
           "close": 156.76
+        },
+        {
+          "date": "2026-06-16",
+          "close": 155.95
         }
       ],
-      "regular_market_time": "2026-06-15T20:00:00.000Z"
+      "regular_market_time": "2026-06-16T20:00:00.000Z"
     },
     "OIH": {
-      "price": 415.32,
-      "change_pct": -3,
+      "price": 406.19,
+      "change_pct": -2.2,
       "currency": "USD",
-      "as_of": "2026-06-15",
+      "as_of": "2026-06-16",
       "history": [
-        {
-          "date": "2026-04-13",
-          "close": 413.08
-        },
         {
           "date": "2026-04-14",
           "close": 402.8
@@ -1135,20 +1131,20 @@
         {
           "date": "2026-06-15",
           "close": 415.32
+        },
+        {
+          "date": "2026-06-16",
+          "close": 406.19
         }
       ],
-      "regular_market_time": "2026-06-15T20:00:00.000Z"
+      "regular_market_time": "2026-06-16T20:00:00.000Z"
     },
     "USO": {
-      "price": 121.21,
-      "change_pct": -3.36,
+      "price": 115.47,
+      "change_pct": -4.74,
       "currency": "USD",
-      "as_of": "2026-06-15",
+      "as_of": "2026-06-16",
       "history": [
-        {
-          "date": "2026-04-13",
-          "close": 128.47
-        },
         {
           "date": "2026-04-14",
           "close": 123.85
@@ -1324,20 +1320,20 @@
         {
           "date": "2026-06-15",
           "close": 121.21
+        },
+        {
+          "date": "2026-06-16",
+          "close": 115.47
         }
       ],
-      "regular_market_time": "2026-06-15T20:00:00.000Z"
+      "regular_market_time": "2026-06-16T20:00:00.000Z"
     },
     "BNO": {
-      "price": 46.05,
-      "change_pct": -3.7,
+      "price": 43.89,
+      "change_pct": -4.69,
       "currency": "USD",
-      "as_of": "2026-06-15",
+      "as_of": "2026-06-16",
       "history": [
-        {
-          "date": "2026-04-13",
-          "close": 49.07
-        },
         {
           "date": "2026-04-14",
           "close": 47.51
@@ -1513,9 +1509,13 @@
         {
           "date": "2026-06-15",
           "close": 46.05
+        },
+        {
+          "date": "2026-06-16",
+          "close": 43.89
         }
       ],
-      "regular_market_time": "2026-06-15T20:00:00.000Z"
+      "regular_market_time": "2026-06-16T20:00:00.000Z"
     }
   }
 }
