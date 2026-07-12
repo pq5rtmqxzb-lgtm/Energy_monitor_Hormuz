@@ -22,7 +22,7 @@ export function Timeline() {
       </CardHeader>
       <CardBody className="space-y-4">
         <div className="overflow-x-auto -mx-1 px-1">
-          <div className="relative min-w-[640px] py-6">
+          <div className="relative min-w-[1100px] py-6">
             <div className="absolute left-2 right-2 top-1/2 h-px bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800" />
             <ul className="relative flex justify-between items-center">
               {TIMELINE.map((t, i) => {

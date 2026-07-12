@@ -6,7 +6,7 @@
     "price": 76,
     "change_pct": -0.39,
     "currency": "USD",
-    "note": "Front-month settle. Dated Brent quoted higher (~$110 via Fortune May 13) — three-layer discount stack in effect.",
+    "note": "Front-month settle. Hormuz transit halted again since Jul 7, yet the premium is ~$4 vs February's $58 \u2014 the market prices demand destruction and the 2027 overhang against re-closure. See MOU tracker and Frameworks.",
     "history": [
       {
         "date": "2026-05-06",
@@ -196,7 +196,7 @@
     "price": 71.51,
     "change_pct": -0.79,
     "currency": "USD",
-    "note": "Front-month settle. Back below $102 from $102.18 May 12 close.",
+    "note": "Front-month settle. Round-tripped below the pre-war level in late June ($71.57 on Jul 1); the July re-escalation has so far bought back only a few dollars.",
     "history": [
       {
         "date": "2026-05-06",

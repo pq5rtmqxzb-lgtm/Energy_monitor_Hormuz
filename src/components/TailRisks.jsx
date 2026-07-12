@@ -7,7 +7,7 @@ export function TailRisks() {
   return (
     <Card id="tail" className="scroll-mt-32">
       <CardHeader icon={AlertTriangle} iconClass="text-purple-400" title="Tail Risks">
-        <span className="ml-auto text-xs text-gray-600">10% combined probability</span>
+        <span className="ml-auto text-xs text-gray-600">{TAIL_SCENARIOS.up.probability + TAIL_SCENARIOS.down.probability}% combined probability</span>
       </CardHeader>
       <CardBody className="space-y-3">
         <p className="text-xs text-gray-500">{TAIL_SCENARIOS.intro}</p>
