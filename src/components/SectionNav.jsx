@@ -1,4 +1,4 @@
-import { Activity, AlertTriangle, BarChart3, Calendar, Globe, Shield, Target } from "lucide-react";
+import { Activity, AlertTriangle, BarChart3, Calendar, ClipboardCheck, FileText, Globe, Shield, Target } from "lucide-react";
 
 const SECTIONS = [
   { id: "markets",   label: "Markets",    icon: Activity },
@@ -6,8 +6,10 @@ const SECTIONS = [
   { id: "iogp",      label: "IOGP",       icon: BarChart3 },
   { id: "geo",       label: "Geo",        icon: Globe },
   { id: "timeline",  label: "Timeline",   icon: Calendar },
+  { id: "mou",       label: "MOU",        icon: FileText },
   { id: "scenarios", label: "Scenarios",  icon: Target },
   { id: "framework", label: "Frameworks", icon: Shield },
+  { id: "scorecard", label: "Scorecard",  icon: ClipboardCheck },
   { id: "tail",      label: "Tail",       icon: AlertTriangle },
 ];
 

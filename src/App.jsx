@@ -8,8 +8,10 @@ import { PerformanceChart } from "./components/PerformanceChart";
 import { IOGPAnalysis } from "./components/IOGPAnalysis";
 import { GeoContext } from "./components/GeoContext";
 import { Timeline } from "./components/Timeline";
+import { MouTracker } from "./components/MouTracker";
 import { DoubleChokepoint } from "./components/DoubleChokepoint";
 import { Frameworks } from "./components/Frameworks";
+import { Scorecard } from "./components/Scorecard";
 import { ScenarioPanel } from "./components/ScenarioPanel";
 import { TailRisks } from "./components/TailRisks";
 import { Disclaimer } from "./components/Disclaimer";
@@ -23,7 +25,7 @@ export default function App() {
   const [market, setMarket] = useState(null);
   const [loadingMarket, setLoadingMarket] = useState(true);
   const [marketError, setMarketError] = useState(null);
-  const [activeScenario, setActiveScenario] = useHashParam("scenario", "bull");
+  const [activeScenario, setActiveScenario] = useHashParam("scenario", "base");
 
   useEffect(() => {
     try {
@@ -107,8 +109,10 @@ export default function App() {
               <IOGPAnalysis />
               <GeoContext />
               <Timeline />
+              <MouTracker />
               <DoubleChokepoint />
               <Frameworks />
+              <Scorecard />
               <ScenarioPanel active={activeScenario} onSelect={setActiveScenario} />
               <TailRisks />
               <Disclaimer snapshotLabel={snapshotLabel} />

@@ -15,7 +15,7 @@ export function DoubleChokepoint() {
       <div className="px-4 py-3 border-b border-amber-900/50 flex items-center gap-2">
         <AlertTriangle size={16} className="text-amber-400" />
         <h2 className="text-sm font-semibold text-amber-300">{s.title}</h2>
-        <Pill className="ml-auto bg-amber-900 text-amber-300">PARTIAL</Pill>
+        <Pill className="ml-auto bg-amber-900 text-amber-300">{s.pill || "PARTIAL"}</Pill>
       </div>
       <div className="p-4 space-y-3">
         <p className="text-sm text-gray-300">

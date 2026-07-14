@@ -9,11 +9,18 @@ const TONE = {
   neutral: "bg-amber-400",
 };
 
+const SENTIMENT_PILL = {
+  bullish: "bg-emerald-900 text-emerald-300",
+  bearish: "bg-red-900 text-red-300",
+  mixed:   "bg-amber-900 text-amber-300",
+  neutral: "bg-amber-900 text-amber-300",
+};
+
 export function GeoContext() {
   return (
     <Card id="geo" className="scroll-mt-32">
       <CardHeader icon={Globe} iconClass="text-blue-400" title="Geopolitical Context">
-        <Pill className="ml-auto bg-emerald-900 text-emerald-300 capitalize">{GEO.sentiment}</Pill>
+        <Pill className={`ml-auto capitalize ${SENTIMENT_PILL[GEO.sentiment] || SENTIMENT_PILL.neutral}`}>{GEO.sentiment}</Pill>
       </CardHeader>
       <CardBody>
         <p className="text-sm text-gray-300 leading-relaxed mb-4">{GEO.summary}</p>
