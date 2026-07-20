@@ -1,17 +1,13 @@
 {
-  "as_of": "2026-07-17T22:36:47.118Z",
-  "snapshot_label": "2026-07-17 (auto-refresh)",
+  "as_of": "2026-07-20T22:43:53.577Z",
+  "snapshot_label": "2026-07-20 (auto-refresh)",
   "source": "Yahoo Finance chart endpoint",
   "brent": {
-    "price": 88.09,
-    "change_pct": 4.58,
+    "price": 89.02,
+    "change_pct": 1.04,
     "currency": "USD",
     "note": "Front-month settle. Hormuz transit halted again since Jul 7, yet the premium is ~$4 vs February's $58 — the market prices demand destruction and the 2027 overhang against re-closure. See MOU tracker and Frameworks.",
     "history": [
-      {
-        "date": "2026-05-13",
-        "close": 105.63
-      },
       {
         "date": "2026-05-14",
         "close": 105.72
@@ -186,22 +182,22 @@
       },
       {
         "date": "2026-07-17",
-        "close": 88.09
+        "close": 88.1
+      },
+      {
+        "date": "2026-07-20",
+        "close": 89.02
       }
     ],
-    "as_of": "2026-07-17",
-    "regular_market_time": "2026-07-17T20:59:57.000Z"
+    "as_of": "2026-07-20",
+    "regular_market_time": "2026-07-20T22:25:17.000Z"
   },
   "wti": {
-    "price": 81.77,
-    "change_pct": 3.57,
+    "price": 82.58,
+    "change_pct": 0.11,
     "currency": "USD",
     "note": "Front-month settle. Round-tripped below the pre-war level in late June ($71.57 on Jul 1); the July re-escalation has so far bought back only a few dollars.",
     "history": [
-      {
-        "date": "2026-05-13",
-        "close": 101.02
-      },
       {
         "date": "2026-05-14",
         "close": 101.17
@@ -376,23 +372,23 @@
       },
       {
         "date": "2026-07-17",
-        "close": 81.77
+        "close": 82.49
+      },
+      {
+        "date": "2026-07-20",
+        "close": 82.58
       }
     ],
-    "as_of": "2026-07-17",
-    "regular_market_time": "2026-07-17T20:59:58.000Z"
+    "as_of": "2026-07-20",
+    "regular_market_time": "2026-07-20T22:33:50.000Z"
   },
   "etfs": {
     "IOGP": {
-      "price": 28.27,
-      "change_pct": 1.4,
+      "price": 28.58,
+      "change_pct": 1.1,
       "currency": "EUR",
-      "as_of": "2026-07-16",
+      "as_of": "2026-07-17",
       "history": [
-        {
-          "date": "2026-05-15",
-          "close": 30.26
-        },
         {
           "date": "2026-05-18",
           "close": 30.73
@@ -568,20 +564,20 @@
         {
           "date": "2026-07-16",
           "close": 28.27
+        },
+        {
+          "date": "2026-07-17",
+          "close": 28.58
         }
       ],
-      "regular_market_time": "2026-07-17T15:18:08.000Z"
+      "regular_market_time": "2026-07-20T15:29:56.000Z"
     },
     "XLE": {
-      "price": 57.68,
-      "change_pct": 1.16,
+      "price": 57.94,
+      "change_pct": 0.45,
       "currency": "USD",
-      "as_of": "2026-07-17",
+      "as_of": "2026-07-20",
       "history": [
-        {
-          "date": "2026-05-13",
-          "close": 57.63
-        },
         {
           "date": "2026-05-14",
           "close": 58.07
@@ -757,20 +753,20 @@
         {
           "date": "2026-07-17",
           "close": 57.68
+        },
+        {
+          "date": "2026-07-20",
+          "close": 57.94
         }
       ],
-      "regular_market_time": "2026-07-17T20:00:00.000Z"
+      "regular_market_time": "2026-07-20T20:00:00.000Z"
     },
     "VDE": {
-      "price": 162.78,
-      "change_pct": 1.26,
+      "price": 163.48,
+      "change_pct": 0.43,
       "currency": "USD",
-      "as_of": "2026-07-17",
+      "as_of": "2026-07-20",
       "history": [
-        {
-          "date": "2026-05-13",
-          "close": 163.61
-        },
         {
           "date": "2026-05-14",
           "close": 164.8
@@ -946,20 +942,20 @@
         {
           "date": "2026-07-17",
           "close": 162.78
+        },
+        {
+          "date": "2026-07-20",
+          "close": 163.48
         }
       ],
-      "regular_market_time": "2026-07-17T20:00:00.000Z"
+      "regular_market_time": "2026-07-20T20:00:00.000Z"
     },
     "OIH": {
-      "price": 378.99,
-      "change_pct": 0.5,
+      "price": 375.18,
+      "change_pct": -1.01,
       "currency": "USD",
-      "as_of": "2026-07-17",
+      "as_of": "2026-07-20",
       "history": [
-        {
-          "date": "2026-05-13",
-          "close": 437.45
-        },
         {
           "date": "2026-05-14",
           "close": 441.43
@@ -1135,20 +1131,20 @@
         {
           "date": "2026-07-17",
           "close": 378.99
+        },
+        {
+          "date": "2026-07-20",
+          "close": 375.18
         }
       ],
-      "regular_market_time": "2026-07-17T20:00:00.000Z"
+      "regular_market_time": "2026-07-20T20:00:00.000Z"
     },
     "USO": {
-      "price": 123.96,
-      "change_pct": 3.91,
+      "price": 125.51,
+      "change_pct": 1.25,
       "currency": "USD",
-      "as_of": "2026-07-17",
+      "as_of": "2026-07-20",
       "history": [
-        {
-          "date": "2026-05-13",
-          "close": 142.04
-        },
         {
           "date": "2026-05-14",
           "close": 143
@@ -1324,20 +1320,20 @@
         {
           "date": "2026-07-17",
           "close": 123.96
+        },
+        {
+          "date": "2026-07-20",
+          "close": 125.51
         }
       ],
-      "regular_market_time": "2026-07-17T20:00:00.000Z"
+      "regular_market_time": "2026-07-20T20:00:00.000Z"
     },
     "BNO": {
-      "price": 48.7,
-      "change_pct": 4.1,
+      "price": 49.32,
+      "change_pct": 1.27,
       "currency": "USD",
-      "as_of": "2026-07-17",
+      "as_of": "2026-07-20",
       "history": [
-        {
-          "date": "2026-05-13",
-          "close": 55.85
-        },
         {
           "date": "2026-05-14",
           "close": 56.21
@@ -1513,9 +1509,13 @@
         {
           "date": "2026-07-17",
           "close": 48.7
+        },
+        {
+          "date": "2026-07-20",
+          "close": 49.32
         }
       ],
-      "regular_market_time": "2026-07-17T20:00:00.000Z"
+      "regular_market_time": "2026-07-20T20:00:00.000Z"
     }
   }
 }
