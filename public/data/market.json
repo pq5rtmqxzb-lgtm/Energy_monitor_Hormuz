@@ -1,17 +1,13 @@
 {
-  "as_of": "2026-07-29T22:45:17.730Z",
-  "snapshot_label": "2026-07-29 (auto-refresh)",
+  "as_of": "2026-07-30T22:53:59.058Z",
+  "snapshot_label": "2026-07-30 (auto-refresh)",
   "source": "Yahoo Finance chart endpoint",
   "brent": {
-    "price": 90.4,
-    "change_pct": 7.5,
+    "price": 89.45,
+    "change_pct": -1.42,
     "currency": "USD",
     "note": "Front-month settle. Hormuz transit halted again since Jul 7, yet the premium is ~$4 vs February's $58 — the market prices demand destruction and the 2027 overhang against re-closure. See MOU tracker and Frameworks.",
     "history": [
-      {
-        "date": "2026-05-26",
-        "close": 99.58
-      },
       {
         "date": "2026-05-27",
         "close": 94.29
@@ -186,22 +182,22 @@
       },
       {
         "date": "2026-07-29",
-        "close": 90.4
+        "close": 90.74
+      },
+      {
+        "date": "2026-07-30",
+        "close": 89.45
       }
     ],
-    "as_of": "2026-07-29",
-    "regular_market_time": "2026-07-29T22:03:21.000Z"
+    "as_of": "2026-07-30",
+    "regular_market_time": "2026-07-30T20:49:55.000Z"
   },
   "wti": {
-    "price": 84.47,
-    "change_pct": 6.57,
+    "price": 84.06,
+    "change_pct": -0.47,
     "currency": "USD",
     "note": "Front-month settle. Round-tripped below the pre-war level in late June ($71.57 on Jul 1); the July re-escalation has so far bought back only a few dollars.",
     "history": [
-      {
-        "date": "2026-05-26",
-        "close": 93.89
-      },
       {
         "date": "2026-05-27",
         "close": 88.68
@@ -376,23 +372,23 @@
       },
       {
         "date": "2026-07-29",
-        "close": 84.47
+        "close": 84.46
+      },
+      {
+        "date": "2026-07-30",
+        "close": 84.06
       }
     ],
-    "as_of": "2026-07-29",
-    "regular_market_time": "2026-07-29T22:35:15.000Z"
+    "as_of": "2026-07-30",
+    "regular_market_time": "2026-07-30T22:43:44.000Z"
   },
   "etfs": {
     "IOGP": {
-      "price": 28.78,
-      "change_pct": -1.88,
+      "price": 29.67,
+      "change_pct": 3.09,
       "currency": "EUR",
-      "as_of": "2026-07-28",
+      "as_of": "2026-07-29",
       "history": [
-        {
-          "date": "2026-05-27",
-          "close": 28.96
-        },
         {
           "date": "2026-05-28",
           "close": 28.84
@@ -568,20 +564,20 @@
         {
           "date": "2026-07-28",
           "close": 28.78
+        },
+        {
+          "date": "2026-07-29",
+          "close": 29.67
         }
       ],
-      "regular_market_time": "2026-07-29T15:18:07.000Z"
+      "regular_market_time": "2026-07-30T15:04:04.000Z"
     },
     "XLE": {
-      "price": 58.65,
-      "change_pct": 1.88,
+      "price": 58.96,
+      "change_pct": 0.53,
       "currency": "USD",
-      "as_of": "2026-07-29",
+      "as_of": "2026-07-30",
       "history": [
-        {
-          "date": "2026-05-26",
-          "close": 57.85
-        },
         {
           "date": "2026-05-27",
           "close": 56.99
@@ -757,20 +753,20 @@
         {
           "date": "2026-07-29",
           "close": 58.65
+        },
+        {
+          "date": "2026-07-30",
+          "close": 58.96
         }
       ],
-      "regular_market_time": "2026-07-29T20:00:00.000Z"
+      "regular_market_time": "2026-07-30T20:00:00.000Z"
     },
     "VDE": {
-      "price": 165.14,
-      "change_pct": 1.93,
+      "price": 166.28,
+      "change_pct": 0.69,
       "currency": "USD",
-      "as_of": "2026-07-29",
+      "as_of": "2026-07-30",
       "history": [
-        {
-          "date": "2026-05-26",
-          "close": 163.72
-        },
         {
           "date": "2026-05-27",
           "close": 160.84
@@ -946,20 +942,20 @@
         {
           "date": "2026-07-29",
           "close": 165.14
+        },
+        {
+          "date": "2026-07-30",
+          "close": 166.28
         }
       ],
-      "regular_market_time": "2026-07-29T20:00:00.000Z"
+      "regular_market_time": "2026-07-30T20:00:00.000Z"
     },
     "OIH": {
-      "price": 367.94,
-      "change_pct": -0.92,
+      "price": 375.83,
+      "change_pct": 2.14,
       "currency": "USD",
-      "as_of": "2026-07-29",
+      "as_of": "2026-07-30",
       "history": [
-        {
-          "date": "2026-05-26",
-          "close": 443.19
-        },
         {
           "date": "2026-05-27",
           "close": 425.53
@@ -1135,20 +1131,20 @@
         {
           "date": "2026-07-29",
           "close": 367.94
+        },
+        {
+          "date": "2026-07-30",
+          "close": 375.83
         }
       ],
-      "regular_market_time": "2026-07-29T20:00:00.000Z"
+      "regular_market_time": "2026-07-30T20:00:00.000Z"
     },
     "USO": {
-      "price": 129.31,
-      "change_pct": 7.32,
+      "price": 127.48,
+      "change_pct": -1.42,
       "currency": "USD",
-      "as_of": "2026-07-29",
+      "as_of": "2026-07-30",
       "history": [
-        {
-          "date": "2026-05-26",
-          "close": 137
-        },
         {
           "date": "2026-05-27",
           "close": 131.03
@@ -1324,20 +1320,20 @@
         {
           "date": "2026-07-29",
           "close": 129.31
+        },
+        {
+          "date": "2026-07-30",
+          "close": 127.48
         }
       ],
-      "regular_market_time": "2026-07-29T20:00:00.000Z"
+      "regular_market_time": "2026-07-30T20:00:00.000Z"
     },
     "BNO": {
-      "price": 50.43,
-      "change_pct": 7.89,
+      "price": 49.66,
+      "change_pct": -1.53,
       "currency": "USD",
-      "as_of": "2026-07-29",
+      "as_of": "2026-07-30",
       "history": [
-        {
-          "date": "2026-05-26",
-          "close": 53.1
-        },
         {
           "date": "2026-05-27",
           "close": 51.14
@@ -1513,9 +1509,13 @@
         {
           "date": "2026-07-29",
           "close": 50.43
+        },
+        {
+          "date": "2026-07-30",
+          "close": 49.66
         }
       ],
-      "regular_market_time": "2026-07-29T20:00:00.000Z"
+      "regular_market_time": "2026-07-30T20:00:00.000Z"
     }
   }
 }
