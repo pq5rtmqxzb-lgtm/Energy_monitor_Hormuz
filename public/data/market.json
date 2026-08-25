@@ -1,17 +1,13 @@
 {
-  "as_of": "2026-08-24T22:12:54.084Z",
-  "snapshot_label": "2026-08-24 (auto-refresh)",
+  "as_of": "2026-08-25T22:12:59.662Z",
+  "snapshot_label": "2026-08-25 (auto-refresh)",
   "source": "Yahoo Finance chart endpoint",
   "brent": {
-    "price": 92.1,
-    "change_pct": -2.43,
+    "price": 86,
+    "change_pct": -6.69,
     "currency": "USD",
     "note": "Front-month settle. Hormuz transit halted again since Jul 7, yet the premium is ~$4 vs February's $58 — the market prices demand destruction and the 2027 overhang against re-closure. See MOU tracker and Frameworks.",
     "history": [
-      {
-        "date": "2026-06-22",
-        "close": 77.9
-      },
       {
         "date": "2026-06-23",
         "close": 77.08
@@ -186,22 +182,22 @@
       },
       {
         "date": "2026-08-24",
-        "close": 92.1
+        "close": 92.17
+      },
+      {
+        "date": "2026-08-25",
+        "close": 86
       }
     ],
-    "as_of": "2026-08-24",
-    "regular_market_time": "2026-08-24T22:01:15.000Z"
+    "as_of": "2026-08-25",
+    "regular_market_time": "2026-08-25T22:02:41.000Z"
   },
   "wti": {
-    "price": 85.09,
-    "change_pct": -2.26,
+    "price": 81.14,
+    "change_pct": -4.55,
     "currency": "USD",
     "note": "Front-month settle. Round-tripped below the pre-war level in late June ($71.57 on Jul 1); the July re-escalation has so far bought back only a few dollars.",
     "history": [
-      {
-        "date": "2026-06-22",
-        "close": 74.82
-      },
       {
         "date": "2026-06-23",
         "close": 73.21
@@ -376,23 +372,23 @@
       },
       {
         "date": "2026-08-24",
-        "close": 85.09
+        "close": 85.01
+      },
+      {
+        "date": "2026-08-25",
+        "close": 81.14
       }
     ],
-    "as_of": "2026-08-24",
-    "regular_market_time": "2026-08-24T22:02:49.000Z"
+    "as_of": "2026-08-25",
+    "regular_market_time": "2026-08-25T22:02:52.000Z"
   },
   "etfs": {
     "IOGP": {
-      "price": 31.42,
-      "change_pct": -0.41,
+      "price": 30.87,
+      "change_pct": -1.75,
       "currency": "EUR",
-      "as_of": "2026-08-21",
+      "as_of": "2026-08-24",
       "history": [
-        {
-          "date": "2026-06-22",
-          "close": 27.37
-        },
         {
           "date": "2026-06-23",
           "close": 27.79
@@ -568,20 +564,20 @@
         {
           "date": "2026-08-21",
           "close": 31.42
+        },
+        {
+          "date": "2026-08-24",
+          "close": 30.87
         }
       ],
-      "regular_market_time": "2026-08-24T15:29:56.000Z"
+      "regular_market_time": "2026-08-25T15:35:03.000Z"
     },
     "XLE": {
-      "price": 63.11,
-      "change_pct": -0.83,
+      "price": 62.06,
+      "change_pct": -1.66,
       "currency": "USD",
-      "as_of": "2026-08-24",
+      "as_of": "2026-08-25",
       "history": [
-        {
-          "date": "2026-06-22",
-          "close": 54.06
-        },
         {
           "date": "2026-06-23",
           "close": 54.46
@@ -757,20 +753,20 @@
         {
           "date": "2026-08-24",
           "close": 63.11
+        },
+        {
+          "date": "2026-08-25",
+          "close": 62.06
         }
       ],
-      "regular_market_time": "2026-08-24T20:00:00.000Z"
+      "regular_market_time": "2026-08-25T20:00:00.000Z"
     },
     "VDE": {
-      "price": 177.87,
-      "change_pct": -0.95,
+      "price": 175.13,
+      "change_pct": -1.54,
       "currency": "USD",
-      "as_of": "2026-08-24",
+      "as_of": "2026-08-25",
       "history": [
-        {
-          "date": "2026-06-22",
-          "close": 153.75
-        },
         {
           "date": "2026-06-23",
           "close": 154.68
@@ -946,20 +942,20 @@
         {
           "date": "2026-08-24",
           "close": 177.87
+        },
+        {
+          "date": "2026-08-25",
+          "close": 175.13
         }
       ],
-      "regular_market_time": "2026-08-24T20:00:00.000Z"
+      "regular_market_time": "2026-08-25T20:00:00.000Z"
     },
     "OIH": {
-      "price": 408.71,
-      "change_pct": -1.59,
+      "price": 405.69,
+      "change_pct": -0.74,
       "currency": "USD",
-      "as_of": "2026-08-24",
+      "as_of": "2026-08-25",
       "history": [
-        {
-          "date": "2026-06-22",
-          "close": 388.91
-        },
         {
           "date": "2026-06-23",
           "close": 384.52
@@ -1135,20 +1131,20 @@
         {
           "date": "2026-08-24",
           "close": 408.71
+        },
+        {
+          "date": "2026-08-25",
+          "close": 405.69
         }
       ],
-      "regular_market_time": "2026-08-24T20:00:00.000Z"
+      "regular_market_time": "2026-08-25T20:00:00.000Z"
     },
     "USO": {
-      "price": 132.21,
-      "change_pct": -1.8,
+      "price": 126.15,
+      "change_pct": -4.58,
       "currency": "USD",
-      "as_of": "2026-08-24",
+      "as_of": "2026-08-25",
       "history": [
-        {
-          "date": "2026-06-22",
-          "close": 112.69
-        },
         {
           "date": "2026-06-23",
           "close": 111.26
@@ -1324,20 +1320,20 @@
         {
           "date": "2026-08-24",
           "close": 132.21
+        },
+        {
+          "date": "2026-08-25",
+          "close": 126.15
         }
       ],
-      "regular_market_time": "2026-08-24T20:00:00.000Z"
+      "regular_market_time": "2026-08-25T20:00:00.000Z"
     },
     "BNO": {
-      "price": 52.78,
-      "change_pct": -1.9,
+      "price": 50.26,
+      "change_pct": -4.77,
       "currency": "USD",
-      "as_of": "2026-08-24",
+      "as_of": "2026-08-25",
       "history": [
-        {
-          "date": "2026-06-22",
-          "close": 43.12
-        },
         {
           "date": "2026-06-23",
           "close": 42.54
@@ -1513,9 +1509,13 @@
         {
           "date": "2026-08-24",
           "close": 52.78
+        },
+        {
+          "date": "2026-08-25",
+          "close": 50.26
         }
       ],
-      "regular_market_time": "2026-08-24T20:00:00.000Z"
+      "regular_market_time": "2026-08-25T20:00:00.000Z"
     }
   }
 }
