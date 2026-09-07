@@ -1,17 +1,13 @@
 {
-  "as_of": "2026-09-04T23:29:16.716Z",
-  "snapshot_label": "2026-09-04 (auto-refresh)",
+  "as_of": "2026-09-07T23:49:41.145Z",
+  "snapshot_label": "2026-09-07 (auto-refresh)",
   "source": "Yahoo Finance chart endpoint",
   "brent": {
-    "price": 95.83,
-    "change_pct": 0.32,
+    "price": 97.18,
+    "change_pct": 0.93,
     "currency": "USD",
     "note": "Front-month settle. Hormuz transit halted again since Jul 7, yet the premium is ~$4 vs February's $58 — the market prices demand destruction and the 2027 overhang against re-closure. See MOU tracker and Frameworks.",
     "history": [
-      {
-        "date": "2026-07-06",
-        "close": 71.99
-      },
       {
         "date": "2026-07-07",
         "close": 74.16
@@ -186,22 +182,22 @@
       },
       {
         "date": "2026-09-04",
-        "close": 95.83
+        "close": 96.28
+      },
+      {
+        "date": "2026-09-07",
+        "close": 97.18
       }
     ],
-    "as_of": "2026-09-04",
-    "regular_market_time": "2026-09-04T20:59:51.000Z"
+    "as_of": "2026-09-07",
+    "regular_market_time": "2026-09-07T23:37:19.000Z"
   },
   "wti": {
-    "price": 91.22,
-    "change_pct": -0.09,
+    "price": 92.57,
+    "change_pct": 1.19,
     "currency": "USD",
     "note": "Front-month settle. Round-tripped below the pre-war level in late June ($71.57 on Jul 1); the July re-escalation has so far bought back only a few dollars.",
     "history": [
-      {
-        "date": "2026-07-06",
-        "close": 68.55
-      },
       {
         "date": "2026-07-07",
         "close": 70.44
@@ -376,23 +372,23 @@
       },
       {
         "date": "2026-09-04",
-        "close": 91.22
+        "close": 91.48
+      },
+      {
+        "date": "2026-09-07",
+        "close": 92.57
       }
     ],
-    "as_of": "2026-09-04",
-    "regular_market_time": "2026-09-04T20:59:58.000Z"
+    "as_of": "2026-09-07",
+    "regular_market_time": "2026-09-07T23:39:09.000Z"
   },
   "etfs": {
     "IOGP": {
-      "price": 31.8,
-      "change_pct": -0.13,
+      "price": 31.19,
+      "change_pct": -1.92,
       "currency": "EUR",
-      "as_of": "2026-09-03",
+      "as_of": "2026-09-04",
       "history": [
-        {
-          "date": "2026-07-03",
-          "close": 26.75
-        },
         {
           "date": "2026-07-06",
           "close": 26.83
@@ -568,9 +564,13 @@
         {
           "date": "2026-09-03",
           "close": 31.8
+        },
+        {
+          "date": "2026-09-04",
+          "close": 31.19
         }
       ],
-      "regular_market_time": "2026-09-04T15:00:07.000Z"
+      "regular_market_time": "2026-09-07T15:29:55.000Z"
     },
     "XLE": {
       "price": 64.06,
