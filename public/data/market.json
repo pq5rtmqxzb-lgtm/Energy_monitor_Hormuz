@@ -1,17 +1,13 @@
 {
-  "as_of": "2026-10-15T23:57:06.893Z",
-  "snapshot_label": "2026-10-15 (auto-refresh)",
+  "as_of": "2026-10-17T00:00:11.575Z",
+  "snapshot_label": "2026-10-16 (auto-refresh)",
   "source": "Yahoo Finance chart endpoint",
   "brent": {
-    "price": 105.74,
-    "change_pct": -0.3,
+    "price": 109.69,
+    "change_pct": 3.56,
     "currency": "USD",
     "note": "Front-month settle. Hormuz transit halted again since Jul 7, yet the premium is ~$4 vs February's $58 — the market prices demand destruction and the 2027 overhang against re-closure. See MOU tracker and Frameworks.",
     "history": [
-      {
-        "date": "2026-08-13",
-        "close": 87.07
-      },
       {
         "date": "2026-08-14",
         "close": 88.52
@@ -186,22 +182,22 @@
       },
       {
         "date": "2026-10-15",
-        "close": 105.74
+        "close": 105.92
+      },
+      {
+        "date": "2026-10-16",
+        "close": 109.69
       }
     ],
-    "as_of": "2026-10-15",
-    "regular_market_time": "2026-10-15T23:42:47.000Z"
+    "as_of": "2026-10-16",
+    "regular_market_time": "2026-10-16T20:59:31.000Z"
   },
   "wti": {
-    "price": 96.18,
-    "change_pct": 1.15,
+    "price": 99.04,
+    "change_pct": 1.09,
     "currency": "USD",
     "note": "Front-month settle. Round-tripped below the pre-war level in late June ($71.57 on Jul 1); the July re-escalation has so far bought back only a few dollars.",
     "history": [
-      {
-        "date": "2026-08-13",
-        "close": 81.25
-      },
       {
         "date": "2026-08-14",
         "close": 82.4
@@ -376,23 +372,23 @@
       },
       {
         "date": "2026-10-15",
-        "close": 96.18
+        "close": 97.97
+      },
+      {
+        "date": "2026-10-16",
+        "close": 99.04
       }
     ],
-    "as_of": "2026-10-15",
-    "regular_market_time": "2026-10-15T23:46:55.000Z"
+    "as_of": "2026-10-16",
+    "regular_market_time": "2026-10-16T20:59:58.000Z"
   },
   "etfs": {
     "IOGP": {
-      "price": 33.06,
-      "change_pct": 0.95,
+      "price": 32.64,
+      "change_pct": -1.27,
       "currency": "EUR",
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-15",
       "history": [
-        {
-          "date": "2026-08-13",
-          "close": 29.78
-        },
         {
           "date": "2026-08-14",
           "close": 30.02
@@ -568,9 +564,13 @@
         {
           "date": "2026-10-14",
           "close": 33.06
+        },
+        {
+          "date": "2026-10-15",
+          "close": 32.64
         }
       ],
-      "regular_market_time": "2026-10-15T15:35:13.000Z"
+      "regular_market_time": "2026-10-16T15:08:20.000Z"
     },
     "XLE": {
       "price": 66.56,
@@ -759,7 +759,7 @@
           "close": 66.56
         }
       ],
-      "regular_market_time": "2026-10-15T20:00:00.000Z"
+      "regular_market_time": "2026-10-16T20:00:00.000Z"
     },
     "VDE": {
       "price": 185.49,
@@ -948,7 +948,7 @@
           "close": 185.49
         }
       ],
-      "regular_market_time": "2026-10-15T20:00:00.000Z"
+      "regular_market_time": "2026-10-16T20:00:00.000Z"
     },
     "OIH": {
       "price": 376.59,
@@ -1137,7 +1137,7 @@
           "close": 376.59
         }
       ],
-      "regular_market_time": "2026-10-15T20:00:00.000Z"
+      "regular_market_time": "2026-10-16T20:00:00.000Z"
     },
     "USO": {
       "price": 157.31,
@@ -1326,7 +1326,7 @@
           "close": 157.31
         }
       ],
-      "regular_market_time": "2026-10-15T20:00:00.000Z"
+      "regular_market_time": "2026-10-16T20:00:00.000Z"
     },
     "BNO": {
       "price": 64.86,
@@ -1515,7 +1515,7 @@
           "close": 64.86
         }
       ],
-      "regular_market_time": "2026-10-15T20:00:00.000Z"
+      "regular_market_time": "2026-10-16T20:00:00.000Z"
     }
   }
 }
